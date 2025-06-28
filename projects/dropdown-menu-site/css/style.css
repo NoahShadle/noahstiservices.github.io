@@ -82,12 +82,12 @@ body {
     font-style: normal;
 }
 
-#link-color a:hover {
+#link:hover {
     color: white;
     transition: color 0.7s;
     background-color: rgba(0, 0, 0, 0.368);
     border-radius: 8px;
-    padding: .2px;
+    padding: 2px;
 }
 
 h2 {
@@ -393,8 +393,8 @@ h2 {
     background-color: burlywood;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin: 0px;
     font-size: 24px;
+    margin-top: 50px;
 }
 
 .footer h3 {
@@ -477,6 +477,7 @@ h2 {
     #navbar-content {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         flex-wrap: wrap;
         width: 900px;
         margin: 0px auto;
